@@ -67,6 +67,7 @@
     <Compile Include="Assets\BehaviorBricks\Samples\ProgrammersQuickStartGuide\Done\DoneIsNight.cs" />
     <Compile Include="Assets\Scripts\Formation.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\SendMessage.cs" />
+    <Compile Include="Assets\Scripts\FlockManager.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\GetComponent.cs" />
     <Compile Include="Assets\BehaviorBricks\Conditions\System\Perception\IsTargetCloseAndInSight.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\Audio\PlaySound.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\LookAt.cs" />
     <Compile Include="Assets\Scripts\Wander.cs" />
     <Compile Include="Assets\BehaviorBricks\BehaviorExecutor.cs" />
+    <Compile Include="Assets\Scripts\Flock.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\Instantiate.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\Navigation\MoveToRandomPosition.cs" />
     <Compile Include="Assets\BehaviorBricks\Samples\ProgrammersQuickStartGuide\Done\DoneSleepForever.cs" />
@@ -805,11 +807,11 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
