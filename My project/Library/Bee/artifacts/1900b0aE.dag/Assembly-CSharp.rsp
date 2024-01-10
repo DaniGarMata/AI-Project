@@ -404,6 +404,8 @@
 "Assets/Scripts/FlockManager.cs"
 "Assets/Scripts/Formation.cs"
 "Assets/Scripts/Hide.cs"
+"Assets/Scripts/HideBB.cs"
+"Assets/Scripts/IsNestInactive.cs"
 "Assets/Scripts/patrol.cs"
 "Assets/Scripts/Wander.cs"
 -langversion:9.0
