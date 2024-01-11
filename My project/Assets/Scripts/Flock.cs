@@ -14,6 +14,7 @@ public class Flock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        direction = transform.forward;
         et = 0f;
         lt = Random.Range(0.3f, 0.5f);
     }

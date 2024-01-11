@@ -66,6 +66,7 @@
     <Compile Include="Assets\BehaviorBricks\Actions\System\Basic\SetFloat.cs" />
     <Compile Include="Assets\BehaviorBricks\Samples\ProgrammersQuickStartGuide\Done\DoneIsNight.cs" />
     <Compile Include="Assets\Scripts\Formation.cs" />
+    <Compile Include="Assets\Scripts\HasRobberRobbed.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\SendMessage.cs" />
     <Compile Include="Assets\Scripts\FlockManager.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\GetComponent.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\IsNestInactive.cs" />
     <Compile Include="Assets\BehaviorBricks\Conditions\System\Basic\CheckKey.cs" />
     <Compile Include="Assets\BehaviorBricks\Samples\QuickStartGuide\Done\Resources\MassSpawner.cs" />
+    <Compile Include="Assets\Scripts\estatRobber.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\Physics\FromMouseToWorld.cs" />
     <Compile Include="Assets\Scripts\patrol.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\Destroy.cs" />
@@ -90,6 +92,7 @@
     <Compile Include="Assets\Scripts\Hide.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\Physics\ApplyForce.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\Basic\SetInt.cs" />
+    <Compile Include="Assets\Scripts\estatNest.cs" />
     <Compile Include="Assets\BehaviorBricks\Actions\System\GameObject\LookAt.cs" />
     <Compile Include="Assets\Scripts\Wander.cs" />
     <Compile Include="Assets\BehaviorBricks\BehaviorExecutor.cs" />

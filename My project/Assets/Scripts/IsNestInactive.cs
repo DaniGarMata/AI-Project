@@ -7,11 +7,16 @@ using Pada1.BBCore.Framework;
 [Help("Checks whether the Nest is Inactive.")]
 public class IsNestInactive : ConditionBase
 {
+    [InParam("game object")]
+    [Help("Game object to add the component, if no assigned the component is added to the game object of this behavior")]
+    public GameObject robber;
+
     public override bool Check()
     {
-        GameObject nest = GameObject.Find("BeeNest");
-        //Debug.Log(nest.GetComponent<Renderer>().isVisible);
-        Debug.Log(nest.activeInHierarchy);
-        return !nest.activeInHierarchy;
+        //Debug.Log(robber);
+        //Debug.Log(robber.GetComponent<estatNest>().visible);
+        if (!robber.GetComponent<estatNest>().visible)
+            Debug.Log("Ara!!!");
+        return !robber.GetComponent<estatNest>().visible;
     }
 } 
